@@ -1,0 +1,141 @@
+
+body {
+  margin: 0;
+  color:#f7f2f2;
+}
+
+h1{
+  font-size: 35px;
+  letter-spacing: 3px;
+  line-height: 50px;
+  margin: 0
+  font-weight: bold;
+  color: #4a5056;
+  font-family: 'Nixie One', cursive;
+}
+
+
+h2 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  line-height: 50px;
+  margin: 0;
+  color: #4a5056;
+  font-family: 'Nixie One', cursive;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 15px;
+  letter-spacing: 3px;
+  line-height: 50px;
+  margin: 0;
+  color: #4a5056;
+  font-family: 'Nixie One', cursive;
+  font-weight: normal;
+}
+
+.link {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.link:hover {
+  background-color: #4a505624;
+  padding: 1px;
+  border-radius: 10px;
+}
+
+p {
+  font-size: 13px;
+  font-family: 'Libre Baskerville', serif;
+  color: #4a5056;
+  font-weight: normal;
+}
+
+a {
+  font-size: 13px;
+  font-family: 'Nixie One';
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin:20px 0;
+}
+
+.container{
+  width: 900px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+
+.card{
+  background: white;                          /* White background */
+  padding: 30px;                              /* Internal space */
+  border-radius: 4px;                         /* Small radius */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 10px auto;
+  width: 700px;
+}
+
+
+.button{
+  background: white;
+  color: #4A5056;
+  border: 1px solid #939aa0;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-family: Avenir;
+  letter-spacing: 3px;
+  border-radius: 8px;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+
+}
+
+
+.button:hover {
+  padding: 10px 20px;
+  background-color: #4a505624;
+}
+
+
+.list-inline li {
+  display: inline;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.list-inline li i{
+  color: grey;
+}
+.list-inline li a{
+  color: grey;
+}
+
+div{
+  display: block
+}
+
+tbody{
+  display: table-row-group;
+  vertical-align: middle;
+}
+
+table {
+  line-height: 1.6em
+  white-space: normal;
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 2px
+}
+
+.avatar{
+  width: 300px;
+  border-radius: 50%;
+}
