@@ -35,16 +35,24 @@ h3 {
   font-weight: normal;
 }
 
-.link {
-  text-decoration: none;
-  display: inline-block;
+
+div{
+  display: block
 }
 
-.link:hover {
-  background-color: #4a505624;
-  padding: 1px;
-  border-radius: 10px;
+tbody{
+  display: table-row-group;
+  vertical-align: middle;
 }
+
+table {
+  line-height: 1.6em
+  white-space: normal;
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 2px
+}
+
 
 p {
   font-size: 13px;
@@ -69,6 +77,21 @@ ul{
   margin: 0 auto; /* This automatically sets left/right margins */
 }
 
+@media(max-width 900px){
+  .container{
+    width:100%;
+  }
+
+.link {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.link:hover {
+  background-color: #4a505624;
+  padding: 1px;
+  border-radius: 10px;
+}
 
 .card{
   background: white;                          /* White background */
@@ -118,22 +141,7 @@ ul{
   color: grey;
 }
 
-div{
-  display: block
-}
 
-tbody{
-  display: table-row-group;
-  vertical-align: middle;
-}
-
-table {
-  line-height: 1.6em
-  white-space: normal;
-  text-align: center;
-  border-collapse: separate;
-  border-spacing: 2px
-}
 
 .avatar{
   width: 300px;
